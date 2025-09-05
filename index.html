@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+
+    <nav class="navbar bg-blue-500">
+      <h1 class="text-white text-center p-2">Github Finder</h1>
+    </nav>
+    <div class="container">
+      <div class="search mx-auto text-center w-64 border p-2 m-4 rounded-sm">
+        <h1 class="font-bold text-2xl">Search Github User</h1>
+        <p class="text-gray-600">Enter a username to fecth a user profile and repos</p>
+        <input type="text" class="inputSearch border-2 border-blue-300 focus: outline-none active:border-blue-300 focus:border-blue-300 " placeholder="GitHub Username">
+      </div>
+
+      <div class="profile"></div>
+    </div>
+
+    <div class="footer text-center mt-64 border-2 w-full">GitHub Finder &copy; Tech_Agbero</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
